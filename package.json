@@ -5,9 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "node src/server.js",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "dev:vercel": "vercel dev"
   },
   "dependencies": {
     "dotenv": "^17.4.2"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
